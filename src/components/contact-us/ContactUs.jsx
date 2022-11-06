@@ -37,7 +37,7 @@ const ContactUs = () => {
                                 name="name"
                                 id="name"
                                 placeholder="Name"
-                              />
+                              required/>
                             </div>
                           </div>
                           <div className="col-md-6">
@@ -49,7 +49,7 @@ const ContactUs = () => {
                                 name="email"
                                 id="email"
                                 placeholder="Email"
-                              />
+                              required/>
                             </div>
                           </div>
                           <div className="col-md-12">
@@ -60,8 +60,8 @@ const ContactUs = () => {
                                 className="form-control"
                                 name="subject"
                                 id="subject"
-                                placeholder="contact number"
-                              />
+                                placeholder="contact number" country="US"
+                              required/>
                             </div>
                           </div>
                           <div className="col-md-12">
@@ -74,7 +74,7 @@ const ContactUs = () => {
                                 cols="30"
                                 rows="4"
                                 placeholder="Message"
-                              ></textarea>
+                              required></textarea>
                             </div>
                           </div>
                           <div className="col-md-12">

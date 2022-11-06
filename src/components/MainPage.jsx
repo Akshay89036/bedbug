@@ -14,7 +14,7 @@ const MainPage = () => {
       <Services />
       <Testimonials />
       <ContactUs />
-      <Footer />
+      <Footer/>
     </>
   );
 };

@@ -19,14 +19,14 @@ const Header = () => {
               <a href="#" className="">
                 <span className="mr-2  icon-envelope-open-o"></span>
                 <span className="d-none d-md-inline-block">
-                  info@bedbugzbgone.ca
+                <a href="mailto:info@bedbugzbgone.com">info@bedbugzbgone.com</a>
                 </span>
               </a>
               <span className="mx-md-2 d-inline-block"></span>
               <a href="#" className="">
                 <span className="mr-2  icon-phone"></span>{" "}
                 <span className="d-none d-md-inline-block">
-                  +1 (437) 3327040
+                  +1 6473346669
                 </span>
               </a>
 
@@ -54,7 +54,7 @@ const Header = () => {
             <div className="site-logo">
               <a href="index.html" className="text-black">
                 <span className="text-primary" />
-                BedBugzBeGone
+                BedBugzBGone
               </a>
             </div>
             <div className="col-4"></div>
@@ -65,41 +65,42 @@ const Header = () => {
               >
                 <ul className="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
                   <li>
-                    <a href="#home-section" className="nav-link">
-                      Home
+                    <a href="../" className="nav-link">
+                     <h5>Home</h5> 
                     </a>
                   </li>
                   <li>
                     <a href="#services-section" className="nav-link">
-                      Services
+                      <h5>Services</h5>
                     </a>
                   </li>
 
                   <li>
-                    <a href="#about-section" className="nav-link">
-                      About Us
+                  <a href="../rental" className="nav-link">
+                     <h5>Rentals/Buy</h5> 
                     </a>
+                    
                   </li>
 
                   <li>
                     <a href="#why-us-section" className="nav-link">
-                      Why Us
+                      <h5>Why Us</h5>
                     </a>
                   </li>
 
                   <li>
-                    <a href="#testimonials-section" className="nav-link">
-                      Testimonials
+                  <a href="#about-section" className="nav-link">
+                     <h5>About Us</h5> 
                     </a>
                   </li>
                   <li>
                     <a href="#blog-section" className="nav-link">
-                      Blog
+                     <h5> Blog</h5>
                     </a>
                   </li>
                   <li>
                     <a href="#contact-section" className="nav-link">
-                      Contact
+                     <h5>Contact</h5> 
                     </a>
                   </li>
                 </ul>
