@@ -34,7 +34,7 @@ const Introduction = () => {
         </div>
       </div>
     </div>
-    <a>Get Quote</a>
+    <a  href="#contacta" className="quote_button" id="contact_us">Get Quote</a>
   </div>
 </div>
     // <section class="slider_section">

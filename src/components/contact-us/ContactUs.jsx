@@ -9,7 +9,7 @@ const ContactUs = () => {
           <div className="row">
             <div className="col-md-12">
               <div className="titlepage">
-                <h2>Contact Us</h2>
+                <h2 id="contacta">Contact Us</h2>
                 <span>Message us to get a qoute</span>
               </div>
             </div>

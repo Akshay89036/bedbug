@@ -70,7 +70,7 @@ const Header = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="#services-section" className="nav-link">
+                    <a href="#servicesa" className="nav-link">
                       <h5>Services</h5>
                     </a>
                   </li>
@@ -83,7 +83,7 @@ const Header = () => {
                   </li>
 
                   <li>
-                    <a href="#why-us-section" className="nav-link">
+                    <a href="#why-us" className="nav-link">
                       <h5>Why Us</h5>
                     </a>
                   </li>
@@ -99,7 +99,7 @@ const Header = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="#contact-section" className="nav-link">
+                    <a href="#contact-us" className="nav-link">
                      <h5>Contact</h5> 
                     </a>
                   </li>
