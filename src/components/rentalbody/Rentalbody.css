@@ -11290,3 +11290,14 @@ textarea.form-control-lg {
 .testiminial-author{
   margin: 1% 0% 0% 60%;
 }
+
+.card-img-top{
+  padding: 20px;
+}
+
+@media (min-width: 1200px){
+  .row-cols-xl-4 > * {
+    flex: 0 0 auto;
+    width: 25%;
+}
+}

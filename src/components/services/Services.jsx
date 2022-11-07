@@ -7,7 +7,8 @@ const Services = () => {
       id: 1,
       title: "Bed Bug Extremination",
       image:
-        "https://img.freepik.com/free-vector/pest-control-service-illustration_1284-8981.jpg?w=1380&t=st=1665171174~exp=1665171774~hmac=010ee36140635683307dc6bb12f70b4c3e57d81ab8e4c9b2eff886be104995c4"},
+        "https://img.freepik.com/premium-vector/cartoon-drawing-isolated-cockroach_29937-9892.jpg?w=1380",
+    },
     {
       id: 2,
       title: "Bed bug Inspection",
