@@ -23,6 +23,7 @@ const Rentalbodycard = ({rental})=>{
                 </div>
                 {/* <!-- Product price--> */}
                <h5>{rental.price}</h5> 
+               <h5>{rental.des}</h5>
             </div>
         </div>
         {/* <!-- Product actions--> */}

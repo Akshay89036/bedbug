@@ -11685,6 +11685,11 @@ padding: 10px 10px 10px 10px;
 font-weight: bold; */
 }
 
+.pick{
+
+  float: left;
+}
+
 @media (min-width: 1200px) {
   .row-cols-xl-4 > * {
     flex: 0 0 auto;

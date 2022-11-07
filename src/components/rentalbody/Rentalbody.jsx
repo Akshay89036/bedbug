@@ -1,6 +1,21 @@
 import React, { useState } from "react";
 import "./Rentalbody.css";
 import Rentalbodycard from "../card/Rentalbodycard";
+import rbedbug from "./rbedbug.png"
+import home from "./rbedbug.png"
+import buster from "./buster.png"
+import air from "./air.png"
+import powerchord from "./powerchord.png"
+import fen from "./fen.png"
+import heater from "./heater.png"
+import mover from "./mover.png"
+import monitor from "./monitor.png"
+import power from "./power.png"
+import splitter from "./splitter.png"
+import cord from "./cord.png"
+
+
+
 
 
 
@@ -8,75 +23,70 @@ const Rentals = () => {
     const [rentals] = useState([
       {
         id: 1,
-        name:"Room Bed Bug Heater for Beds and Couches",price:"$21",
+        name:"Residential Bedbug heat system",price:"$399/day",
         image:
-          "https://m.media-amazon.com/images/I/81gQ8BuV+IL._AC_SL1500_.jpg",},
+          rbedbug,
+          des:"Coverage area: 200 Sqft"
+        },
       {
         id: 2,
-        name:"Room Bed Bug Heater for Beds and Couches",
-        image:
-          "https://img.freepik.com/premium-vector/cartoon-drawing-isolated-cockroach_29937-9892.jpg?w=1380",
+        name:"HOME BED BUG HEAT PACKAGE",price:"$699/day",
+        image: home,
+          des:"Coverage area: 650 Sqft",
       },
       {
         id: 3,
-        name:"Room Bed Bug Heater for Beds and Couches",
-        image:
-          "https://img.freepik.com/free-vector/pest-control-icons-set_1284-8979.jpg?w=1380&t=st=1665170038~exp=1665170638~hmac=d1c18dd767418b305d439860b6928a7f079cd135f97aee4fc0e8e637632e85f2",
+        name:"Bedbug Buster Pro heater ",price:"$399/day",
+        image:buster,
+        des:"Coverage area: 400 Sqft"
       },{
         id: 4,
-        name:"Room Bed Bug Heater for Beds and Couches",
-        image:
-          "https://img.freepik.com/free-vector/pest-control-icons-set_1284-8979.jpg?w=1380&t=st=1665170038~exp=1665170638~hmac=d1c18dd767418b305d439860b6928a7f079cd135f97aee4fc0e8e637632e85f2",
+        name:"AIR MOVER",price:"$99/day",
+        image:air,
+        des:"High temperature, high speed, lightweight, axial fan. Only draws 1.93 amps!",
       },{
         id: 5,
-        name:"Room Bed Bug Heater for Beds and Couches",
-        image:
-          "https://img.freepik.com/free-vector/pest-control-icons-set_1284-8979.jpg?w=1380&t=st=1665170038~exp=1665170638~hmac=d1c18dd767418b305d439860b6928a7f079cd135f97aee4fc0e8e637632e85f2",
+        name:"Bedbug heater block and powerchord package ",price:"$399/day",
+        image:powerchord
+          ,des:"This is the most affordable Bed Bug Heater on the Market today! Treat up to 200sq feet fast with 14 Thousand BTU's"
+
+
       },{
         id: 6,
-        name:"Room Bed Bug Heater for Beds and Couches",
-        image:
-          "https://img.freepik.com/free-vector/pest-control-icons-set_1284-8979.jpg?w=1380&t=st=1665170038~exp=1665170638~hmac=d1c18dd767418b305d439860b6928a7f079cd135f97aee4fc0e8e637632e85f2",
+        name:"UNIVERSAL FAN HEATER",price:"$69/day",
+        image: fen,
+          des:"Coverage Area Up to 100 sq ft"
       },{
         id: 7,
-        name:"Room Bed Bug Heater for Beds and Couches",
-        image:
-          "https://img.freepik.com/free-vector/pest-control-icons-set_1284-8979.jpg?w=1380&t=st=1665170038~exp=1665170638~hmac=d1c18dd767418b305d439860b6928a7f079cd135f97aee4fc0e8e637632e85f2",
+        name:"ELIITE 8 BED BUG HEATER",price:"$499/day",
+        image:heater,
+         des:"This state of the art, 110 Volt Hotel Bed Bug Heater and Fan Combo treats 500sqft with the proper number of additional fans. This heater is perfect for hospitality industry applications with 20 amp / 120 volt breakers."
       },{
         id: 8,
-        name:"Room Bed Bug Heater for Beds and Couches",
+        name:"Air mover",price:"$69/day",
         image:
-          "https://img.freepik.com/free-vector/pest-control-icons-set_1284-8979.jpg?w=1380&t=st=1665170038~exp=1665170638~hmac=d1c18dd767418b305d439860b6928a7f079cd135f97aee4fc0e8e637632e85f2",
+          mover,des:"High temperature axial fan"
+          
       },{
         id: 9,
-        name:"Room Bed Bug Heater for Beds and Couches",
-        image:
-          "https://img.freepik.com/free-vector/pest-control-icons-set_1284-8979.jpg?w=1380&t=st=1665170038~exp=1665170638~hmac=d1c18dd767418b305d439860b6928a7f079cd135f97aee4fc0e8e637632e85f2",
+        name:"REMOTE CELLULAR BED BUG HEAT TEMPERATURE MONITORING SYSTEM",price:"$39/day",
+        image:monitor
+          ,des:"Monitor your Bed Bug Heat treatments remotely 24/7 via a cellular gateway. "
       },{
         id: 10,
-        name:"Room Bed Bug Heater for Beds and Couches",
-        image:
-          "https://img.freepik.com/free-vector/pest-control-icons-set_1284-8979.jpg?w=1380&t=st=1665170038~exp=1665170638~hmac=d1c18dd767418b305d439860b6928a7f079cd135f97aee4fc0e8e637632e85f2",
+        name:"POWER DISTRIBUTION AND STEP DOWN KIT",price:"$199/day",
+        image:power
+          ,des:"Full 240 to 120 Volt Conversion Step down bundle with a 48amp / 120volt output. Includes Temporary Power Box, 3 Wire Dryer Cords (New & Old Style), 3 Wire Range Cords (New & Old Style), and bag."
       },{
         id: 11,
-        name:"Room Bed Bug Heater for Beds and Couches",
-        image:
-          "https://img.freepik.com/free-vector/pest-control-icons-set_1284-8979.jpg?w=1380&t=st=1665170038~exp=1665170638~hmac=d1c18dd767418b305d439860b6928a7f079cd135f97aee4fc0e8e637632e85f2",
+        name:"SPLITTER - 4 WAY A/C PTAC POWER ADAPTER",price:"$29/day",
+        image:splitter
+          ,des:"Designed specifically for in wall 20Amp Hotel Air PTAC Conditioner outlets. For use with the Elite 8 and Elite 33K Hypro Heaters."
       },{
         id: 12,
-        name:"Room Bed Bug Heater for Beds and Couches",
-        image:
-          "https://img.freepik.com/free-vector/pest-control-icons-set_1284-8979.jpg?w=1380&t=st=1665170038~exp=1665170638~hmac=d1c18dd767418b305d439860b6928a7f079cd135f97aee4fc0e8e637632e85f2",
-      },{
-        id: 13,
-        name:"Room Bed Bug Heater for Beds and Couches",
-        image:
-          "https://img.freepik.com/free-vector/pest-control-icons-set_1284-8979.jpg?w=1380&t=st=1665170038~exp=1665170638~hmac=d1c18dd767418b305d439860b6928a7f079cd135f97aee4fc0e8e637632e85f2",
-      },{
-        id: 15,
-        name:"Room Bed Bug Heater for Beds and Couches",
-        image:
-          "https://img.freepik.com/free-vector/pest-control-icons-set_1284-8979.jpg?w=1380&t=st=1665170038~exp=1665170638~hmac=d1c18dd767418b305d439860b6928a7f079cd135f97aee4fc0e8e637632e85f2",
+        name:"LIGHTED POWER CORD - 25FT",price:"$9/day",
+        image:cord
+         ,des:"12 Gauge Heavy Duty Lighted End 25' Length "
       },
     ]);
 
@@ -87,12 +97,12 @@ const Rentals = () => {
             {rentals.map((rental) => (
               <Rentalbodycard key={rental.id} rental={rental} />
             ))}
-           <h5> Pick Up Location
+           <div className="pick" > Pick Up Location
             69 Woodword Avenue ,Thornhill <br/>
             Call to schedule your pickup time
             <br/>
             Richard 6473346669
-            </h5>
+            </div>
 
           </div>
             
