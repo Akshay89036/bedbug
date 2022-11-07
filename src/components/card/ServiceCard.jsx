@@ -18,7 +18,7 @@ const ServiceCard = ({ service }) => {
             </a>
           </h5>
           <p class="small text-muted font-italic">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            {service.des}
           </p>
           <ul class="list-inline small">
             <li class="list-inline-item m-0">

@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import ServiceCard from "../card/ServiceCard";
+import two from "./two.png";
+import three from "./three.png";
+import four from "./four.png";
 
 const Services = () => {
   const [services] = useState([
@@ -7,19 +10,22 @@ const Services = () => {
       id: 1,
       title: "Bed Bug Extremination",
       image:
-        "https://img.freepik.com/premium-vector/cartoon-drawing-isolated-cockroach_29937-9892.jpg?w=1380",
+        two,
+        des:"The safest and efficient way to kill bedbugs",
     },
     {
       id: 2,
       title: "Bed bug Inspection",
       image:
-        "https://img.freepik.com/premium-vector/cartoon-drawing-isolated-cockroach_29937-9892.jpg?w=1380",
+        three,
+        des:"Thorough inspection before starting the work to make the service more efficient",
     },
     {
       id: 3,
       title: "Equipments Rental",
       image:
-        "https://img.freepik.com/free-vector/pest-control-icons-set_1284-8979.jpg?w=1380&t=st=1665170038~exp=1665170638~hmac=d1c18dd767418b305d439860b6928a7f079cd135f97aee4fc0e8e637632e85f2",
+        four,
+        des:"we have renting out different types of bedbug extremination equipments",
     },
   ]);
 

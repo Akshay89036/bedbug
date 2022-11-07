@@ -21,7 +21,7 @@ const Testimonials = () => {
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <span class="first-slide">
-                    bedbugzbgone is definitely a company I would recommend to
+                    Bedbugzbgone is definitely a company I would recommend to
                     anyone dealing with bed bug issues. We went for heat
                     treatment and were very happy with the easy prep <br />
                     vthey asked us to do. All other companies were asking for a
@@ -30,7 +30,7 @@ const Testimonials = () => {
                     came to do an inspection to make sure everything was good.
                     So far so good!"
                   </span>
-                  <div className="testiminial-author">text</div>
+                  <div className="testiminial-author">~ Haida Harrison</div>
                 </div>
                 <div class="carousel-item">
                   <span class="second-slide">
@@ -43,9 +43,9 @@ const Testimonials = () => {
                     and pleased with the service provided. We knew right away
                     our home was treated with care. After a 2 week inspection we
                     have seen no evidence of any bedbugs. Would recommend
-                    bedbugzbgone.
+                    bedbugzbgone to everyone.
                   </span>
-                  <div className="testiminial-author">text</div>
+                  <div className="testiminial-author">~ Dizuza Hermoth</div>
                 </div>
                 <div class="carousel-item">
                   <span class="third-slide">
@@ -53,12 +53,11 @@ const Testimonials = () => {
                     fight bed bugs. I live in a condo and I had a problem with
                     bed bugs,
                     <br />
-                    he told me that they are coming from your neighbor unit, and
-                    he was correct. he figured out the whole problem from the
-                    source, and I am very pressed to deal with pestend . I am
+                    They figured out the whole problem what the problem was
+            , and I am very pressed to deal with Bedbugzbgone . I am
                     highly recommending Bedbugzbgone
                   </span>
-                  <div className="testiminial-author">text</div>
+                  <div className="testiminial-author">~ Derick Abhraham</div>
                 </div>
               </div>
               <a class="" href="#main_slider" role="button" data-slide="prev">

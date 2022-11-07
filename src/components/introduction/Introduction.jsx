@@ -1,6 +1,6 @@
 import React from "react";
 import './introduction.css';
-import banner from './banner4.png'
+import one from './one.png'
 
 const Introduction = () => {
   return (<div id="about" className="about">
@@ -29,7 +29,7 @@ const Introduction = () => {
       <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
         <div className="about-img">
           <figure>
-            <img src="https://img.freepik.com/premium-photo/control-pest-cimex-background-bed-bedbug-bedding_488220-24483.jpg?w=2000" alt="img" />
+            <img src={one} alt="img"/>
           </figure>
         </div>
       </div>

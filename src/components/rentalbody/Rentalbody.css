@@ -235,11 +235,11 @@ sup {
 }
 
 a {
-  color: #0d6efd;
+  color: var(--bs-red);
   text-decoration: underline;
 }
 a:hover {
-  color: #0a58ca;
+  color: var(--bs-red);
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -11289,6 +11289,7 @@ textarea.form-control-lg {
 
 .testiminial-author{
   margin: 1% 0% 0% 60%;
+  font-weight: bold;
 }
 
 .card-img-top{
