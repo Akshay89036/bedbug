@@ -8,14 +8,14 @@ const Footer = () => {
         <div className="container py-4">
           <div className="row gy-4 gx-5">
             <div className="col-lg-4 col-md-6">
-              <h5 className="h1 text-white">Bedbugzbgone</h5>
+              <h5 className="h1 text-white">ByeByeBedbugs</h5>
               <p className="small text-muted">
                
               </p>
               <p className="small text-muted mb-0">
                 &copy; Copyrights. All rights reserved.{" "}
                 <a className="text-primary" href="#">
-                  Bedbugzbgone.com
+                  ByeByeBedbugs.com
                 </a>
               </p>
             </div>

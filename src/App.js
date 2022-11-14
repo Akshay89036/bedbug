@@ -1,5 +1,7 @@
 import MainPage from "./components/MainPage";
 import Rental from "./components/Rental";
+import Whyus from  "./components/Whyus"
+import Aboutus from  "./components/Aboutus"
 import {BrowserRouter,Route,Routes} from "react-router-dom"
 
 function App() {
@@ -7,6 +9,8 @@ function App() {
    <Routes>
       <Route path='/' element={<MainPage />}/>
      <Route path='/rental' element={<Rental/>}/>
+     <Route path='/whyus' element={<Whyus/>}/>
+     <Route path='/aboutus' element={<Aboutus/>}/>
       </Routes> 
       </BrowserRouter>
   );

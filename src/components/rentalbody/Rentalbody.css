@@ -11687,7 +11687,8 @@ font-weight: bold; */
 
 .pick{
 
-  float: left;
+  font-size:28px;
+  padding: 0px 10px 10px 0px;
 }
 
 @media (min-width: 1200px) {

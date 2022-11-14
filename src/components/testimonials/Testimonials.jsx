@@ -21,7 +21,7 @@ const Testimonials = () => {
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <span class="first-slide">
-                    Bedbugzbgone is definitely a company I would recommend to
+                    ByeByeBedbugs is definitely a company I would recommend to
                     anyone dealing with bed bug issues. We went for heat
                     treatment and were very happy with the easy prep <br />
                     vthey asked us to do. All other companies were asking for a
@@ -35,7 +35,7 @@ const Testimonials = () => {
                 <div class="carousel-item">
                   <span class="second-slide">
                     After researching options we decided to go with
-                    bedbugzbgone. They provided a one day treatment with less
+                    ByeByeBedbugs. They provided a one day treatment with less
                     prep work and a guarantee.
                     <br /> The technicians were professional and spent the day
                     at our home ensuring all areas of our home were treated with
@@ -43,19 +43,19 @@ const Testimonials = () => {
                     and pleased with the service provided. We knew right away
                     our home was treated with care. After a 2 week inspection we
                     have seen no evidence of any bedbugs. Would recommend
-                    bedbugzbgone to everyone.
+                    ByeByeBedbugs to everyone.
                   </span>
                   <div className="testiminial-author">~ Dizuza Hermoth</div>
                 </div>
                 <div class="carousel-item">
                   <span class="third-slide">
-                    Bedbugzbgone is great, very experienced and professional to
+                    ByeByeBedbugs is great, very experienced and professional to
                     fight bed bugs. I live in a condo and I had a problem with
                     bed bugs,
                     <br />
                     They figured out the whole problem what the problem was
-            , and I am very pressed to deal with Bedbugzbgone . I am
-                    highly recommending Bedbugzbgone
+            , and I am very pressed to deal with ByeByeBedbugs . I am
+                    highly recommending ByeByeBedbugs
                   </span>
                   <div className="testiminial-author">~ Derick Abhraham</div>
                 </div>

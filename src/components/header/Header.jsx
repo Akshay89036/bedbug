@@ -19,7 +19,7 @@ const Header = () => {
               <a href="#" className="">
                 <span className="mr-2  icon-envelope-open-o"></span>
                 <span className="d-none d-md-inline-block">
-                <a href="mailto:info@bedbugzbgone.com">info@bedbugzbgone.com</a>
+                <a href="mailto:info@ByeByeBedbugs.com">info@ByeByeBedbugs.com</a>
                 </span>
               </a>
               <span className="mx-md-2 d-inline-block"></span>
@@ -54,7 +54,7 @@ const Header = () => {
             <div className="site-logo">
               <a href="index.html" className="text-black">
                 <span className="text-primary" />
-                BedBugzBGone
+                ByeByeBedbugs
               </a>
             </div>
             <div className="col-4"></div>
@@ -83,13 +83,13 @@ const Header = () => {
                   </li>
 
                   <li>
-                    <a href="#why-us" className="nav-link">
+                    <a href="../Whyus" className="nav-link">
                       <h5>Why Us</h5>
                     </a>
                   </li>
 
                   <li>
-                  <a href="#about-section" className="nav-link">
+                  <a href=".//Aboutus" className="nav-link">
                      <h5>About Us</h5> 
                     </a>
                   </li>

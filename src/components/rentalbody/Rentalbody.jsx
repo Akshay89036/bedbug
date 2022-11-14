@@ -97,14 +97,16 @@ const Rentals = () => {
             {rentals.map((rental) => (
               <Rentalbodycard key={rental.id} rental={rental} />
             ))}
-           <div className="pick" > Pick Up Location
+           
+          </div>
+          <div className="container">
+           <div className="pick" > Pick Up Location:
             69 Woodword Avenue ,Thornhill <br/>
             Call to schedule your pickup time
             <br/>
             Richard 6473346669
             </div>
-
-          </div>
+            </div>
             
             
             
