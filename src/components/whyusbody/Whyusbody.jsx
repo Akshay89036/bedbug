@@ -1,6 +1,12 @@
 import React from "react";
 import "./Whyusbody.css";
 import bedbugpic from "./bedbugpic.png"
+import manbed from "./manbed.png"
+import bedbedbug from "./bedbedbug.png"
+import scratch from "./scratch.png"
+import washing from "./washing.png"
+
+
 
 const Whyusbody = () => {
   return (
@@ -8,11 +14,11 @@ const Whyusbody = () => {
       <div>
         <div className="container col-8 abc">
           GET TO KNOW TORONTO'S NUMBER
-          #1 BEDBUG EXTREMINATOR
+          #1 BEDBUG EXTERMINATOR
           <div className="head ce" >ABOUT BYEBYEBEDBUGS</div>
         </div>
 
-{/* 
+        {/* 
 
         <div className="container">
           <div className="card" style={{ width: '18rem' }}>
@@ -56,54 +62,193 @@ const Whyusbody = () => {
         </div> */}
 
 
-<div className="container">
-<div class="card-group">
-  <div class="card">
-    <img src={bedbugpic} class="card-img-top" alt="..."/>
-    <div class="card-body">
-      <h5 class="card-title abc">What are bed bugs?</h5>
-      <p class="card-text cc">Bed bugs are small insects (about the size
-of an apple seed) with oval-shaped bodies
-and no wings. They usually come out
-and bite at night. It is possible for
-anyone, anywhere to experience a
-bed bug infestation, but they can be
-prevented and controlled.</p>
-    </div>
-    <div class="card-footer">
-      <small class="text-muted">Last updated 12 days ago</small>
-    </div>
-  </div>
-  <div class="card">
-    <img src="..." class="card-img-top" alt="..."/>
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-    </div>
-    <div class="card-footer">
-      <small class="text-muted">Last updated 3 mins ago</small>
-    </div>
-  </div>
-  <div class="card">
-    <img src="..." class="card-img-top" alt="..."/>
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text ">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-    </div>
-    <div class="card-footer">
-      <small class="text-muted">Last updated 3 mins ago</small>
-    </div>
-  </div>
+        <div className="container">
+          <div className="card-group">
+            <div className="card he">
+              <img src={bedbugpic} className="card-img-top" alt="..." />
+              <div className="card-body">
+                <h5 className="card-title abc">What are bed bugs?</h5>
+                <p className="card-text cc">Bed bugs are small insects (about the size
+                  of an apple seed) with oval-shaped bodies
+                  and no wings. They usually come out
+                  and bite at night. It is possible for
+                  anyone, anywhere to experience a
+                  bed bug infestation, but they can be
+                  prevented and controlled.</p>
+              </div>
+              <div className="card-footer">
+                <small className="text-muted">Last updated 12 days ago</small>
+              </div>
+            </div>
+            <div className="card he">
+              <img src={manbed} className="card-img-top" alt="..." />
+              <div className="card-body">
+                <h5 className="card-title abc">How do I find a pest control
+                  company?</h5>
+                <p className="card-text cc">Getting rid of bed bugs requires pesticides and other treatments that
+                  should only be used by professionals. There are many licensed pest
+                  control companies in Ontario who have the training and experience
+                  to manage a bed bug infestation.</p>
+              </div>
+              <div className="card-footer">
+                <small className="text-muted">Last updated 11 days ago</small>
+              </div>
+            </div>
+            <div className="card he adds">
+
+              <div className="card-body">
+                <h5 className="card-title  cd">EVERYTHING
+                  YOU WANTED
+                  TO KNOW
+                  ABOUT
+                  BED BUGS.</h5>
+                <img src={bedbugpic} className="card-img-top" style={{ width: '15em' }} alt="..." />
+              </div>
+              <div className="card-footer">
+                <small className="text-muted">Last updated 11 days ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container text-center">
+          <div class="row">
+            <div class="col hede">
+              PREVENT
+            </div>
+            <div class="col hede">
+              IDENTIFY
+            </div>
+            <div class="col hede">
+              ACT
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div className="container">
+
+          <div className="card-group beeed">
+            <div className="card be">
+              <div className="card-body">
+                <h5 className="card-title">How do I stop bed bugs from
+                  entering my home?</h5>
+                <p className="card-text">Even the cleanest homes can get bed bugs, but regular inspection and
+                  cleaning can help you prevent an infestation. To prevent bed bugs
+                  from coming into your home you should:
+                  <ul >
+
+                    <li>
+                      Vacuum your mattress often
+
+                    </li>
+
+                    <li> Clean up clutter
+                    </li>
+                    <li>
+                      Seal cracks and crevices with caulking
+                    </li>
+                    <li>
+                      Inspect used furniture or clothes before buying
+                    </li>
+
+                    <li>Never bring discarded bed frames, mattresses, box springs,
+                      upholstered furniture or electronics into your home
+
+                    </li>
+                    <li>
+                      Inspect your luggage and its contents when you return from a trip
+                    </li></ul>
+                </p>
+              </div>
+              <img src={bedbedbug} className="card-img-top" alt="..." />
+
+              <div className="card-footer">
+                <small className="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+            <div className="card be">
+              <div className="card-body">
+                <h5 className="card-title">How can I find bed bugs?</h5>
+                <p className="card-text">Use a flashlight to look for bed bugs and their droppings. Or use a hot
+hair dryer, thin knife or playing card to force them out of hiding spaces
+and cracks. Check in the seams of your mattress, inside your box
+spring and along your bed frame. Also look in cracks and crevices in
+and around your bed and check surrounding furniture and baseboards</p>
+<h5 className="card-title">What does a bed bug bite feel
+and look like?</h5>
+<p>Some people have no reaction at all. But for some people they can
+turn into itchy welts. Often bed bug bites appear as a group of three,
+which people sometimes call “breakfast, lunch, and dinner”. They
+usually go away by themselves and don’t need treatment. Although
+bed bugs and their bites are a nuisance, they are not known to spread
+disease in humans</p>
+              </div>
+              
+              <img src={scratch} className="card-img-top" alt="..." />
+
+              <div className="card-footer">
+                <small className="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+            <div className="card be">
+              <div className="card-body">
+                <h5 className="card-title">What can I do if I have bed bugs?</h5>
+                <p className="card-text">If you find bed bugs, talk to your landlord, building manager, local
+Public Health Unit or a pest control professional. You should also:
+<ul>
+<li>Vacuum your mattress, bed frame, baseboards and anything else
+around your bed every day</li>
+<li>Wash your clothing, bed sheets, blankets, mattress pads and
+pillows in hot water and dry them on high heat for 30 minutes</li>
+<li>Remove unnecessary clutter</li>
+<li>Seal cracks in bed frames, floors, walls and between baseboards</li>
+<li>Repair or remove peeling wallpaper</li>
+<li>Tighten loose light switch covers</li>
+<li>Seal openings where pipes, wires or other utilities come into your home</li>
+<li>Carefully bag, label and dispose of infested items that can’t be cleaned</li>
+
+</ul>
+</p>
+              </div>
+              <img src={washing} className="card-img-top" alt="..." />
+
+              <div className="card-footer">
+                <small className="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+
+
+
+
+<div className="container col-8 ">
+
+
+  <h1>Our Commitment</h1>
+
+
+  <h5 ><span className="cold"> ByebyeBedbugs</span> we believe in providing exceptional service for your pest control issues.  </h5>
+
+  <br />
+
+<h5>For that reason, we always provide:</h5>
+<ul className="editt" >
+<li><span className="cold">6-MONTHS GUARANTEE</span> for complete peace of mind.</li>
+<li> <span className="cold">FREE HOME INSPECTION</span> to identify the problem.</li>
+<li><span className="cold">ECO-FRIENDLY TECHNOLOGY</span> avoiding unnecessary pesticides.</li>
+<li> <span className="cold">A MONEY-BACK GUARANTEE </span> because we stand by the quality of our work.</li>
+
+
+</ul>
+
 </div>
-</div>
+<div></div>
 
 
-
-
-
-
-
-
+        </div>
       </div>
 
 

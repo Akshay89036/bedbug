@@ -130,6 +130,7 @@ button:focus {
 ul,
 li,
 ol {
+	list-style-type: circle !important;
 	margin: 0px;
 	padding: 0px;
 	list-style: none;

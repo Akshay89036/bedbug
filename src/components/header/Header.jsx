@@ -89,7 +89,7 @@ const Header = () => {
                   </li>
 
                   <li>
-                  <a href=".//Aboutus" className="nav-link">
+                  <a href="./Aboutus" className="nav-link">
                      <h5>About Us</h5> 
                     </a>
                   </li>
