@@ -10,10 +10,10 @@ function App() {
   return (<BrowserRouter>
    <Routes>
       <Route path='/' element={<MainPage />}/>
-     <Route path='http://byebyebedbugs.ca/rental' element={<Rental/>}/>
-     <Route path='http://byebyebedbugs.ca/whyus' element={<Whyus/>}/>
-     <Route path='http://byebyebedbugs.ca/aboutus' element={<Aboutus/>}/>
-     <Route path="http://byebyebedbugs.ca/contactus" element={<ContactUsM/>}/>
+     <Route path='/rental' element={<Rental/>}/>
+     <Route path='/whyus' element={<Whyus/>}/>
+     <Route path='/aboutus' element={<Aboutus/>}/>
+     <Route path="/contactus" element={<ContactUsM/>}/>
       </Routes> 
       </BrowserRouter>
   );
