@@ -224,10 +224,10 @@ pillows in hot water and dry them on high heat for 30 minutes</li>
 
 
 
-<div className="container col-8 ">
+<div className="container col-10 ">
 
 
-  <h1>Our Commitment</h1>
+  <h1 className="coo">Our Commitment</h1>
 
 
   <h5 ><span className="cold"> ByebyeBedbugs</span> we believe in providing exceptional service for your pest control issues.  </h5>

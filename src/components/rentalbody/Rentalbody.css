@@ -11697,3 +11697,15 @@ font-weight: bold; */
     width: 25%;
   }
 }
+.pade{
+  margin-left: 200px !important;
+  
+}
+
+.pade :hover{
+ color: red;
+}
+
+.spp{
+  margin-bottom:100px ;
+}

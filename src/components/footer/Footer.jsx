@@ -23,43 +23,43 @@ const Footer = () => {
               <h5 className="text-white mb-3">Quick links</h5>
               <ul className="list-unstyled text-muted">
                 <li>
-                  <a href="#">Home</a>
+                  <a href="../">Home</a>
                 </li>
                 <li>
-                  <a href="#">About</a>
+                  <a href="./Rental">Rental/Buy</a>
                 </li>
                 <li>
-                  <a href="#">Get started</a>
+                  <a href="#contacta">Get started</a>
                 </li>
                 <li>
-                  <a href="#">FAQ</a>
+                  <a href="./Aboutus">FAQ</a>
                 </li>
               </ul>
             </div>
             <div className="col-lg-2 col-md-6">
-              <h5 className="text-white mb-3">Quick links</h5>
+              {/* <h5 className="text-white mb-3">Quick links</h5>
               <ul className="list-unstyled text-muted">
                 <li>
-                  <a href="#">Home</a>
+                  <a href="../">Home</a>
                 </li>
                 <li>
-                  <a href="#">About</a>
+                  <a href="./Aboutus">About</a>
                 </li>
                 <li>
-                  <a href="#">Get started</a>
+                  <a href="../">Get started</a>
                 </li>
                 <li>
-                  <a href="#">FAQ</a>
+                  <a href="./Aboutus">FAQ</a>
                 </li>
-              </ul>
+              </ul> */}
             </div>
             <div className="col-lg-4 col-md-6">
               <h5 className="text-white mb-3">Newsletter</h5>
-              <p className="small text-muted">
+              {/* <p className="small text-muted">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                 eiusmod tempor incididunt.
-              </p>
-              <form action="#">
+              </p> */}
+              <form action="#home">
                 <div className="input-group mb-3">
                   <input
                     className="form-control"

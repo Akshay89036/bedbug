@@ -17,7 +17,7 @@ const Aboutus = () => {
 
 
 
-      <div className="container">
+      <div className="container spp">
         <div class="accordion" id="accordionExample">
           <div class="fonty">
             <h2 class="accordion-header" id="headingOne">

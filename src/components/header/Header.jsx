@@ -63,7 +63,7 @@ const Header = () => {
                 className="site-navigation text-right ml-auto "
                 role="navigation"
               >
-                <ul className="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
+                <ul className="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block pade">
                   <li>
                     <a href="../" className="nav-link">
                      <h5>Home</h5> 
@@ -93,13 +93,13 @@ const Header = () => {
                      <h5>FAQ’s</h5> 
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href="#blog-section" className="nav-link">
                      <h5> Blog</h5>
                     </a>
-                  </li>
+                  </li> */}
                   <li>
-                    <a href="#contacta" className="nav-link">
+                    <a href="./contactus" className="nav-link">
                      <h5>Contact</h5> 
                     </a>
                   </li>
