@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2135c6e0.css",
-    "main.js": "/static/js/main.e54a046a.js",
+    "main.css": "/static/css/main.4555b721.css",
+    "main.js": "/static/js/main.f460005e.js",
     "static/media/one.png": "/static/media/one.b59f50828ea8f69feee8.png",
     "static/media/powerchord.png": "/static/media/powerchord.1cd30e400b332366ca28.png",
     "static/media/two.png": "/static/media/two.1dcb71e21e6e6c974165.png",
@@ -17,12 +17,17 @@
     "static/media/power.png": "/static/media/power.bc1777544ec2caf225a2.png",
     "static/media/monitor.png": "/static/media/monitor.2d880887403ead054ff3.png",
     "static/media/splitter.png": "/static/media/splitter.cd0f9bfa666c048273ea.png",
+    "static/media/manbed.png": "/static/media/manbed.5aa37b7056a2193f3f3a.png",
+    "static/media/bedbedbug.png": "/static/media/bedbedbug.f7d785377dccc14fe810.png",
+    "static/media/washing.png": "/static/media/washing.3185078a373f947b4c8e.png",
+    "static/media/scratch.png": "/static/media/scratch.ac4ee02687779be311cc.png",
+    "static/media/bedbugpic.png": "/static/media/bedbugpic.0bb957dabb4c4d7fc7ac.png",
     "index.html": "/index.html",
-    "main.2135c6e0.css.map": "/static/css/main.2135c6e0.css.map",
-    "main.e54a046a.js.map": "/static/js/main.e54a046a.js.map"
+    "main.4555b721.css.map": "/static/css/main.4555b721.css.map",
+    "main.f460005e.js.map": "/static/js/main.f460005e.js.map"
   },
   "entrypoints": [
-    "static/css/main.2135c6e0.css",
-    "static/js/main.e54a046a.js"
+    "static/css/main.4555b721.css",
+    "static/js/main.f460005e.js"
   ]
 }
