@@ -4,7 +4,7 @@ import Whyus from  "./components/Whyus"
 import Aboutus from  "./components/Aboutus"
 import ContactUsM from "./components/ContactusM";
 import {BrowserRouter,Route,Routes} from "react-router-dom"
-
+// import { HashRouter as Router, Route,Routes } from "react-router-dom";
 
 function App() {
   return (<BrowserRouter>
