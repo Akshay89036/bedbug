@@ -1,5 +1,6 @@
 import React from "react";
 import "./header.css";
+import logo from "./logo.jpg"
 
 const Header = () => {
   return (
@@ -19,7 +20,7 @@ const Header = () => {
               <a href="#" className="">
                 <span className="mr-2  icon-envelope-open-o"></span>
                 <span className="d-none d-md-inline-block">
-                <a href="mailto:info@ByeByeBedbugs.com">info@ByeByeBedbugs.com</a>
+                <a href="mailto:info@ByeByeBedbugs.com">info@Byebyebedbugs.ca</a>
                 </span>
               </a>
               <span className="mx-md-2 d-inline-block"></span>
@@ -50,20 +51,25 @@ const Header = () => {
         role="banner"
       >
         <div className="container">
+          
           <div className="row align-items-center position-relative">
-            <div className="site-logo">
-              <a href="index.html" className="text-black">
-                <span className="text-primary" />
-                ByeByeBedbugs
-              </a>
+            
+          
+            <div className="col-4">
+            <img src={logo} alt="..." style={{
+                resizeMode: "contain",
+                height: 70,
+                
+              }} />
             </div>
-            <div className="col-4"></div>
             <div className="col-8">
               <nav
                 className="site-navigation text-right ml-auto "
                 role="navigation"
               >
+                
                 <ul className="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block pade">
+                
                   <li>
                     <a href="../" className="nav-link">
                      <h5>Home</h5> 
