@@ -1,16 +1,8 @@
 import React from "react";
 import ContactUs from "./contact-us/ContactUs";
-import Footer from "./footer/Footer";
-import Header from "./header/Header";
 
 const ContactUsM = () => {
-  return (
-    <>
-      <Header/>
-      <ContactUs />
-      <Footer/>
-    </>
-  );
+  return <ContactUs />;
 };
 
 export default ContactUsM;

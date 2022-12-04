@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./footer.css";
 
 const Footer = () => {
@@ -14,25 +15,25 @@ const Footer = () => {
               </p>
               <p className="small text-muted mb-0">
                 &copy; Copyrights. All rights reserved.{" "}
-                <a className="text-primary" href="#">
+                <Link className="text-primary" to="#">
                   ByeByeBedbugs.com
-                </a>
+                </Link>
               </p>
             </div>
             <div className="col-lg-2 col-md-6">
               <h5 className="text-white mb-3">Quick links</h5>
               <ul className="list-unstyled text-muted">
                 <li>
-                  <a href="../">Home</a>
+                  <Link to="/">Home</Link>
                 </li>
                 <li>
-                  <a href="./Rental">Rental/Buy</a>
+                  <Link to="/rental">Rental/Buy</Link>
                 </li>
                 <li>
-                  <a href="#contacta">Get started</a>
+                  <Link to="/contactus">Get started</Link>
                 </li>
                 <li>
-                  <a href="./Aboutus">FAQ</a>
+                  <Link to="/aboutus">FAQ</Link>
                 </li>
               </ul>
             </div>
