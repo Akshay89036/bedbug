@@ -31,7 +31,7 @@ const Services = () => {
 
   return (
     <>
-      <div id="service" className="service">
+      <div id="services" className="service">
         <div className="container">
           <div className="row">
             <div className="col-md-12">

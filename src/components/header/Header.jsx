@@ -1,8 +1,11 @@
 import React from "react";
+import { Link, useLocation } from "react-router-dom";
 import "./header.css";
-import logo from "./logo.jpg"
+import logo from "./logo.jpg";
 
 const Header = () => {
+  const { pathname } = useLocation();
+
   return (
     <>
       <div className="site-mobile-menu site-navbar-target">
@@ -20,15 +23,15 @@ const Header = () => {
               <a href="#" className="">
                 <span className="mr-2  icon-envelope-open-o"></span>
                 <span className="d-none d-md-inline-block">
-                <a href="mailto:info@ByeByeBedbugs.com">info@Byebyebedbugs.ca</a>
+                  <a href="mailto:info@ByeByeBedbugs.com">
+                    info@Byebyebedbugs.ca
+                  </a>
                 </span>
               </a>
               <span className="mx-md-2 d-inline-block"></span>
               <a href="#" className="">
                 <span className="mr-2  icon-phone"></span>{" "}
-                <span className="d-none d-md-inline-block">
-                  +1 6473346669
-                </span>
+                <span className="d-none d-md-inline-block">+1 6473346669</span>
               </a>
 
               <div className="float-right">
@@ -51,63 +54,65 @@ const Header = () => {
         role="banner"
       >
         <div className="container">
-          
           <div className="row align-items-center position-relative">
-            
-          
             <div className="col-4">
-            <img src={logo} alt="..." style={{
-                resizeMode: "contain",
-                height: 70,
-                
-              }} />
+              <img
+                src={logo}
+                alt="..."
+                style={{
+                  resizeMode: "contain",
+                  height: 70,
+                }}
+              />
             </div>
             <div className="col-8">
               <nav
                 className="site-navigation text-right ml-auto "
                 role="navigation"
               >
-                
                 <ul className="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block pade">
-                
                   <li>
-                    <a href="../" className="nav-link">
-                     <h5>Home</h5> 
-                    </a>
+                    <Link to="/" className="nav-link">
+                      <h5>Home</h5>
+                    </Link>
                   </li>
+                  {pathname === "/" ? (
+                    <li>
+                      <a href="#services" className="nav-link">
+                        <h5>Services</h5>
+                      </a>
+                    </li>
+                  ) : (
+                    ""
+                  )}
+
                   <li>
-                    <a href="#servicesa" className="nav-link">
-                      <h5>Services</h5>
-                    </a>
+                    <Link to="/rental" className="nav-link">
+                      <h5>Rentals/Buy</h5>
+                    </Link>
                   </li>
 
                   <li>
-                  <a href="../rental" className="nav-link">
-                     <h5>Rentals/Buy</h5> 
-                    </a>
-                    
-                  </li>
-
-                  <li>
-                    <a href="../Whyus" className="nav-link">
+                    <Link to="/whyus" className="nav-link">
                       <h5>Why Us</h5>
-                    </a>
+                    </Link>
                   </li>
 
                   <li>
-                  <a href="./Aboutus" className="nav-link">
-                     <h5>FAQ’s</h5> 
-                    </a>
+                    <Link to="/aboutus" className="nav-link">
+                      <h5>FAQ’s</h5>
+                    </Link>
                   </li>
+
                   {/* <li>
                     <a href="#blog-section" className="nav-link">
                      <h5> Blog</h5>
                     </a>
                   </li> */}
                   <li>
-                    <a href="./contactus" className="nav-link">
-                     <h5>Contact</h5> 
-                    </a>
+                    <Link to="/contactus" className="nav-link">
+                      <h5>Contact</h5>
+                    </Link>
                   </li>
                 </ul>
               </nav>
