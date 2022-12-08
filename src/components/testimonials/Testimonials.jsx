@@ -5,10 +5,11 @@ const Testimonials = () => {
     <div id="screenshot" class="Screenshot">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
-            <div className="titlepage">
+        <div className="titlepage sdsd">
               <h2>Happy Client Testimonials</h2>
             </div>
+          <div class="col-md-12">
+            
           </div>
         </div>
         <div class="row">

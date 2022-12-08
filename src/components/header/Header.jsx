@@ -4,7 +4,7 @@ import "./header.css";
 import logo from "./logo.jpg";
 
 const Header = () => {
-  const { pathname } = useLocation();
+  // const { pathname } = useLocation();
 
   return (
     <>

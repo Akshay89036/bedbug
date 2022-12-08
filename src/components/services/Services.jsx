@@ -34,7 +34,7 @@ const Services = () => {
       <div id="services" className="service ">
         <div className="container ">
           <div className="row ">
-            <div className="col-md-12 ">
+            <div className="col-md-12 " >
               <div className="titlepage">
                 <h2 id="servicesa" >Services </h2>
                 {/* <span>
@@ -48,8 +48,9 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="container ha abcdef margin-r-l">
-          <div className="row ">
+        <div className="container ha abcdef margin-r-l ">
+          
+          <div className="row card-img-top " >
             {services.map((service) => (
               <ServiceCard key={service.id} service={service} />
             ))}
