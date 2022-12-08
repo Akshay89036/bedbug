@@ -1775,9 +1775,12 @@ img.zoom {
 
 
 
-
+.boxforquote{
+	margin-bottom: 50px !important;
+}
 
 .about a {
+
 text-transform: uppercase;
 border: #000 solid 1px;
 
@@ -2207,5 +2210,31 @@ font-size: 17px;}
 	left: 10px;
 	top: inherit;
 	bottom: 10px;
+}
+
+@media screen and (max-width: 1400px) {
+	#pade{
+		margin-left: 0 !important;
+	}
+  }
+
+
+@media screen and (max-width: 1224px) {
+	#pade{
+		margin-left: 0 !important;
+	}
+	h5, .h5 {
+		font-size: 1.15rem !important;
+	}
+}
+@media screen and (max-width: 992px) {
+	.col-8.mob{
+		display: none;
+	}
+
+	.align-items-center{
+		justify-content: flex-end;
+	}
+
 }
 

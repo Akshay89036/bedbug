@@ -9,7 +9,7 @@ const ServiceCard = ({ service }) => {
           <img
             src={service.image}
             alt=""
-            class="img-fluid d-block mx-auto mb-3"
+            class="img-fluid d-block mx-auto mb-3 "
           />
           <h5>
             {" "}

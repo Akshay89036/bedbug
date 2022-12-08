@@ -24,7 +24,7 @@ const Header = () => {
                 <span className="mr-2  icon-envelope-open-o"></span>
                 <span className="d-none d-md-inline-block">
                   <a href="mailto:info@ByeByeBedbugs.com">
-                    info@Byebyebedbugs.ca
+                    info@byebyebedbugs.ca
                   </a>
                 </span>
               </a>
@@ -35,10 +35,10 @@ const Header = () => {
               </a>
 
               <div className="float-right">
-                <a href="#" className="">
+                {/* <a href="#" className="">
                   <span className="mr-2  icon-twitter"></span>{" "}
                   <span className="d-none d-md-inline-block">Twitter</span>
-                </a>
+                </a> */}
                 <span className="mx-md-2 d-inline-block"></span>
                 <a href="#" className="">
                   <span className="mr-2  icon-facebook"></span>{" "}
@@ -65,18 +65,18 @@ const Header = () => {
                 }}
               />
             </div>
-            <div className="col-8">
+            <div className="col-8 mob">
               <nav
                 className="site-navigation text-right ml-auto "
                 role="navigation"
               >
-                <ul className="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block pade">
+                <ul id="pade" className="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block pade">
                   <li>
                     <Link to="/" className="nav-link">
                       <h5>Home</h5>
                     </Link>
                   </li>
-                  {pathname === "/" ? (
+                  {/* {pathname === "/" ? (
                     <li>
                       <a href="#services" className="nav-link">
                         <h5>Services</h5>
@@ -84,7 +84,7 @@ const Header = () => {
                     </li>
                   ) : (
                     ""
-                  )}
+                  )} */}
 
                   <li>
                     <Link to="/rental" className="nav-link">

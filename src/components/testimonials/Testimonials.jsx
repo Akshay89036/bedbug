@@ -24,7 +24,7 @@ const Testimonials = () => {
                     ByeByeBedbugs is definitely a company I would recommend to
                     anyone dealing with bed bug issues. We went for heat
                     treatment and were very happy with the easy prep <br />
-                    vthey asked us to do. All other companies were asking for a
+                    they asked us to do. All other companies were asking for a
                     lot of prep work which would’ve have taken weeks to
                     complete. After two weeks, the owner of the company himself
                     came to do an inspection to make sure everything was good.

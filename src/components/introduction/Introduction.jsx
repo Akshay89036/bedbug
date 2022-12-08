@@ -17,7 +17,7 @@ const Introduction = () => {
             Bed Bugs have become immune to the pesticide used by
             professional exterminators developed in the 1970s. Science has
             proven that heat treatment is the most effective method of
-            killing all stages of a bed bugs and eggs within minutes after
+            killing all stages of bed bugs and eggs within minutes after
             reaching the thermal death temperature of 45C. Our electric
             bug removal method uses electric heaters and is safe for
             everyone: your children, asthma sufferers, the elderly and
@@ -34,7 +34,7 @@ const Introduction = () => {
         </div>
       </div>
     </div>
-    <a  href="#contacta" className="quote_button" id="contact_us">Get Quote</a>
+    <a  href="#contacta" className="quote_button boxforquote" id="contact_us">Get Quote</a>
   </div>
 </div>
     // <section class="slider_section">

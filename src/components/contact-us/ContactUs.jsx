@@ -1,7 +1,11 @@
 import React from "react";
 import "./contact.css";
+import { useEffect } from "react";
 
 const ContactUs = () => {
+  useEffect(()=>{
+    window.scrollTo({top:0,left:0})
+  })
   return (
     <>
       <div id="service" className="service">
@@ -101,7 +105,7 @@ const ContactUs = () => {
                           scrolling="no"
                           marginHeight="0"
                           marginWidth="0"
-                          src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=100%20parkway%20forest+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                          src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=3225%20lawrence%20avenue%20east,lower%20level+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
                         >
                           <a href="https://www.maps.ie/distance-area-calculator.html">
                             distance maps

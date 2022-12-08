@@ -13,8 +13,14 @@ import monitor from "./monitor.png";
 import power from "./power.png";
 import splitter from "./splitter.png";
 import cord from "./cord.png";
+import { useEffect } from "react";
+
 
 const Rentals = () => {
+
+  useEffect(()=>{
+    window.scrollTo({top:0,left:0})
+  })
   const [rentals] = useState([
     {
       id: 1,

@@ -12,10 +12,9 @@ const Whyusbody = () => {
   return (
     <>
       <div>
-        <div className="container col-8 abc">
-          GET TO KNOW TORONTO'S NUMBER
-          #1 BEDBUG EXTERMINATOR
-          <div className="head ce" >ABOUT BYEBYEBEDBUGS</div>
+        <div className="container head ce  col-8 abc">
+        WHY BYEBYEBEDBUGS
+          {/* <div className="head ce conatiner" >ABOUT BYEBYEBEDBUGS</div> */}
         </div>
 
         {/* 
@@ -77,7 +76,7 @@ const Whyusbody = () => {
                   prevented and controlled.</p>
               </div>
               <div className="card-footer">
-                <small className="text-muted">Last updated 12 days ago</small>
+                <small className="text-muted"></small>
               </div>
             </div>
             <div className="card he">
@@ -91,7 +90,7 @@ const Whyusbody = () => {
                   to manage a bed bug infestation.</p>
               </div>
               <div className="card-footer">
-                <small className="text-muted">Last updated 11 days ago</small>
+                <small className="text-muted"></small>
               </div>
             </div>
             <div className="card he adds">
@@ -105,7 +104,7 @@ const Whyusbody = () => {
                 <img src={bedbugpic} className="card-img-top" style={{ width: '15em' }} alt="..." />
               </div>
               <div className="card-footer">
-                <small className="text-muted">Last updated 11 days ago</small>
+                <small className="text-muted"></small>
               </div>
             </div>
           </div>
@@ -166,7 +165,7 @@ const Whyusbody = () => {
               <img src={bedbedbug} className="card-img-top" alt="..." />
 
               <div className="card-footer">
-                <small className="text-muted">Last updated 3 mins ago</small>
+                <small className="text-muted"></small>
               </div>
             </div>
             <div className="card be">
@@ -190,7 +189,7 @@ disease in humans</p>
               <img src={scratch} className="card-img-top" alt="..." />
 
               <div className="card-footer">
-                <small className="text-muted">Last updated 3 mins ago</small>
+                <small className="text-muted"></small>
               </div>
             </div>
             <div className="card be">
@@ -216,7 +215,7 @@ pillows in hot water and dry them on high heat for 30 minutes</li>
               <img src={washing} className="card-img-top" alt="..." />
 
               <div className="card-footer">
-                <small className="text-muted">Last updated 3 mins ago</small>
+                <small className="text-muted"></small>
               </div>
             </div>
           </div>

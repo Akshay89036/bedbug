@@ -18,38 +18,38 @@ const Services = () => {
       title: "Bed bug Inspection",
       image:
         three,
-        des:"Thorough inspection before starting the work to make the service more efficient",
+        des:"Thorough inspection before starting the work for maximum efficiency",
     },
     {
       id: 3,
       title: "Equipments Rental",
       image:
         four,
-        des:"we have renting out different types of bedbug extremination equipments",
+        des:"we are renting out different types of bedbug extremination equipments",
     },
   ]);
 
   return (
     <>
-      <div id="services" className="service">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-12">
+      <div id="services" className="service ">
+        <div className="container ">
+          <div className="row ">
+            <div className="col-md-12 ">
               <div className="titlepage">
                 <h2 id="servicesa" >Services </h2>
-                <span>
+                {/* <span>
                   It is a long established fact that a reader will be distracted
                   by the readable content of a page when looking at its layout.
                   The point of <br />
                   using Lorem Ipsum is that it has a more-or-less normal
                   distribution of letters,
-                </span>
+                </span> */}
               </div>
             </div>
           </div>
         </div>
-        <div className="container margin-r-l">
-          <div className="row">
+        <div className="container ha abcdef margin-r-l">
+          <div className="row ">
             {services.map((service) => (
               <ServiceCard key={service.id} service={service} />
             ))}
