@@ -11706,6 +11706,10 @@ font-weight: bold; */
   
 }
 
+.marhead{
+  margin-left: 25%;
+}
+
 .pade :hover{
  color: red;
 }

@@ -14,12 +14,12 @@ const Rentalbodycard = ({rental})=>{
                 {/* <!-- Product reviews--> */}
                 <div class="d-flex justify-content-center small text-warning mb-2">
                     <div class="bi-star-fill">
-                    <i class="fa fa-star text-success"></i>
+                    {/* <i class="fa fa-star text-success"></i> */}
                     </div>
+                    {/* <div class="bi-star-fill"> <i class="fa fa-star text-success"></i></div>
                     <div class="bi-star-fill"> <i class="fa fa-star text-success"></i></div>
                     <div class="bi-star-fill"> <i class="fa fa-star text-success"></i></div>
-                    <div class="bi-star-fill"> <i class="fa fa-star text-success"></i></div>
-                    <div class="bi-star-fill"> <i class="fa fa-star text-success"></i></div>
+                    <div class="bi-star-fill"> <i class="fa fa-star text-success"></i></div> */}
                 </div>
                 {/* <!-- Product price--> */}
                <h5>{rental.price}</h5> 

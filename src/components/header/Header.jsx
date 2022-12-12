@@ -17,11 +17,11 @@ const Header = () => {
         <div className="site-mobile-menu-body"></div>
       </div>
       <div className="top-bar">
-        <div className="container">
+        <div className="container marhead" >
           <div className="row">
-            <div className="col-12">
+            <div className="col-12 ">
               <a href="#" className="">
-                <span className="mr-2  icon-envelope-open-o"></span>
+                <span className="mr-4  icon-envelope-open-o"></span>
                 <span className="d-none d-md-inline-block">
                   <a href="mailto:info@ByeByeBedbugs.com">
                     info@byebyebedbugs.ca

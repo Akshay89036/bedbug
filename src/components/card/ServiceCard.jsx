@@ -20,7 +20,7 @@ const ServiceCard = ({ service }) => {
           <p class="small text-muted font-italic">
             {service.des}
           </p>
-          <ul class="list-inline small">
+          {/* <ul class="list-inline small">
             <li class="list-inline-item m-0">
               <i class="fa fa-star text-success"></i>
             </li>
@@ -36,7 +36,7 @@ const ServiceCard = ({ service }) => {
             <li class="list-inline-item m-0">
               <i class="fa fa-star text-success"></i>
             </li>
-          </ul>
+          </ul> */}
         </div>
       </div>
     </div>

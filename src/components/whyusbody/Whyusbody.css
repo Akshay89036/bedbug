@@ -12,6 +12,13 @@
    margin-bottom: 20px;
    margin-top: 20px;
 }
+.cf{
+    font-size:50px ;
+   text-align: center;
+   margin-bottom: 40px;
+   margin-top: 20px;
+   
+}
 
 .cc{
     color: black;
@@ -43,6 +50,10 @@
    font-weight: bold;
 }
 
+.ri{
+   margin-left: 50px;
+
+}
 ul{
     list-style-type: circle !important;
 }
@@ -52,8 +63,8 @@ ul{
 
 .editt{
     font-weight: bold;
-    margin: 30px 30px 30px 30px;
-    padding: 30px 30px 100px 30px;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 0px 40px;
    
 }
 
