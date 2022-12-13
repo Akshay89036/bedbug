@@ -15,9 +15,9 @@ const MainPage = () => {
     
     <>
       <Introduction />
-      <Services />
-      <Testimonials />
-      <ContactUs />
+      
+    
+      
     </>
   );
 };

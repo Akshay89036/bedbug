@@ -82,6 +82,17 @@
     scroll-behavior: smooth;
   }
 }
+html,body{
+	overflow-x: 0;
+}
+
+@media screen and (max-width:426px){
+  .row{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  
+}
 
 body {
   margin: 0;
@@ -11706,9 +11717,7 @@ font-weight: bold; */
   
 }
 
-.marhead{
-  margin-left: 25%;
-}
+
 
 .pade :hover{
  color: red;

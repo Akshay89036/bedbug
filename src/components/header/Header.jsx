@@ -20,7 +20,7 @@ const Header = () => {
         <div className="container marhead" >
           <div className="row">
             <div className="col-12 ">
-              <a href="#" className="">
+              <a href="#" className=""style={{marginLeft: "20%"}}>
                 <span className="mr-4  icon-envelope-open-o"></span>
                 <span className="d-none d-md-inline-block">
                   <a href="mailto:info@ByeByeBedbugs.com">
@@ -29,7 +29,7 @@ const Header = () => {
                 </span>
               </a>
               <span className="mx-md-2 d-inline-block"></span>
-              <a href="#" className="">
+              <a href="#" className=""    >
                 <span className="mr-2  icon-phone"></span>{" "}
                 <span className="d-none d-md-inline-block">+1 6473346669</span>
               </a>

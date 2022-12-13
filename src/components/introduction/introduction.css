@@ -8,7 +8,9 @@
     line-height: 1.2em;
     color: #fff;
 }
-
+#div1{
+    border: 2px solid red;
+}
 .banner_h4{
     font-family: 'nunito',sans-serif;
     font-style: none;
@@ -26,4 +28,56 @@
     letter-spacing: 0em;
     line-height: 1.5em;
     text-transform: none;
+}
+.mainconatiner{
+margin: 40px auto;
+}
+.brform{
+    border: 1px solid black;
+    background-color: #012F47;
+}
+
+.forminput{
+    display: block;
+    margin: 5% auto;
+    min-width: 90%;
+    padding:5px 10px ;
+    border-radius: 10px;
+    
+}
+
+.formwrap{
+    padding: 10px;
+    align-items: center;
+}
+.formheading{
+    align-items: centre;
+    color: red;
+}
+
+.formbutton{
+
+    border: none;
+    padding: 7px 26px;
+    text-align: center;
+    color: white;
+    background: #dc3545;
+    border-radius: 40px;
+    font-weight: bold;
+}
+.formheadingdiv{
+    display: inline;
+    align-items: center;
+}
+
+.cardwrapper{
+    display: flex;
+    border: 1px solid red;
+}
+
+.cardwrapper > * { flex: 1; }
+
+.servcard{
+    border: 1px solid red;
+    margin: 20% 10px 1% 10px;
 }

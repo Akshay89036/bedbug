@@ -56,7 +56,21 @@ const ContactUs = () => {
                               required/>
                             </div>
                           </div>
-                          <div className="col-md-12">
+                          <div className="col-md-6">
+                            <div className="form-group">
+                              <label className="label">Company Name</label>
+                              <input
+                                type="text"
+                                className="form-control"
+                                name="Compname"
+                                id="Compname"
+                                placeholder="Company name"
+                              required/>
+                              
+                        </div>
+                            
+                          </div>
+                          <div className="col-md-6">
                             <div className="form-group">
                               <label className="label">Contact No.</label>
                               <input
@@ -66,7 +80,9 @@ const ContactUs = () => {
                                 id="subject"
                                 placeholder="contact number" country="US"
                               required/>
-                            </div>
+                              
+                        </div>
+                            
                           </div>
                           <div className="col-md-12">
                             <div className="form-group">

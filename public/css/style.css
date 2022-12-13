@@ -36,6 +36,10 @@
     skeleton
 ---------------------------------------------------------------------*/
 
+html,body{
+	overflow-x: 0;
+}
+
 * {
 	box-sizing: border-box !important;
 }
